@@ -3,43 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Site Acessível</title>
+  <title>Aquecimento Global e Clima</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Bem-vindo ao meu site acessível</h1>
-    <nav>
+    <h1>Aquecimento Global e Fatores Climáticos</h1>
+    <nav aria-label="Menu principal">
       <ul>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="#elnino">El Niño</a></li>
+        <li><a href="#lanina">La Niña</a></li>
+        <li><a href="#milankovitch">Ciclos de Milankovitch</a></li>
+        <li><a href="#impactos">Impactos Globais</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section id="sobre">
-      <h2>Sobre o projeto</h2>
-      <p>Este é um site criado para um trabalho escolar, com foco em acessibilidade e simplicidade.</p>
-      <img src="exemplo.jpg" alt="Imagem ilustrativa de acessibilidade">
+    <section id="elnino" class="card">
+      <h2>Fenômeno El Niño</h2>
+      <p>
+        O <strong>El Niño</strong> é caracterizado pelo aquecimento anormal das águas do Oceano Pacífico,
+        alterando o regime de chuvas, causando secas em algumas regiões e enchentes em outras.
+      </p>
+      <img src="elnino.jpg" alt="Mapa ilustrando as áreas afetadas pelo El Niño">
     </section>
 
-    <section id="contato">
-      <h2>Contato</h2>
-      <form>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome"><br><br>
+    <section id="lanina" class="card">
+      <h2>Fenômeno La Niña</h2>
+      <p>
+        A <strong>La Niña</strong> é o resfriamento anormal das águas do Pacífico,
+        produzindo efeitos opostos ao El Niño, como aumento de chuvas no norte do Brasil
+        e estiagens no sul.
+      </p>
+      <img src="lanina.jpg" alt="Mapa ilustrando os efeitos do fenômeno La Niña">
+    </section>
 
-        <label for="msg">Mensagem:</label>
-        <textarea id="msg" name="msg"></textarea><br><br>
+    <section id="milankovitch" class="card destaque">
+      <h2>Ciclos de Milankovitch</h2>
+      <p>
+        Os <strong>ciclos de Milankovitch</strong> descrevem variações na órbita da Terra,
+        inclinação do eixo e precessão, influenciando o clima em escalas de milhares de anos.
+      </p>
+      <blockquote>
+        “Esses ciclos explicam períodos de glaciação e aquecimento ao longo da história da Terra.”
+      </blockquote>
+    </section>
 
-        <button type="submit">Enviar</button>
-      </form>
+    <section id="impactos" class="card">
+      <h2>Impactos no Aquecimento Global</h2>
+      <ul>
+        <li>Alterações no regime de chuvas e agricultura</li>
+        <li>Aumento de eventos climáticos extremos</li>
+        <li>Elevação do nível do mar</li>
+        <li>Influência sobre biodiversidade e ecossistemas</li>
+      </ul>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Meu Site Acessível</p>
+    <p>&copy; 2025 - Projeto Escolar: Clima e Aquecimento Global</p>
   </footer>
 </body>
 </html>
